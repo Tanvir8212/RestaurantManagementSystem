@@ -9,9 +9,10 @@ namespace RestaurantManagementSystem.Models
     {
         public long Id { get; set; }
         public DateTime DateTime { get; set; }
-        public List<FoodItem> FoodItems { get; set; }
-        public List<int> Quantity { get; set; }
+        
         public double TotalPrice { get; set; }
         public Discount Discount { get; set; }
+
+        public List<TransectionSubModel> TransectionSubModels { get; set; }
     }
 }

@@ -161,12 +161,21 @@
     <Compile Include="Migrations\201906101106103_mig01.Designer.cs">
       <DependentUpon>201906101106103_mig01.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906101200497_mig01_01.cs" />
+    <Compile Include="Migrations\201906101200497_mig01_01.Designer.cs">
+      <DependentUpon>201906101200497_mig01_01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906101211546_mig01_02.cs" />
+    <Compile Include="Migrations\201906101211546_mig01_02.Designer.cs">
+      <DependentUpon>201906101211546_mig01_02.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Discount.cs" />
     <Compile Include="Models\FoodCategory.cs" />
     <Compile Include="Models\FoodItem.cs" />
     <Compile Include="Models\RestaurantDbContext.cs" />
     <Compile Include="Models\Transection.cs" />
+    <Compile Include="Models\TransectionSubModel.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -213,6 +222,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\API\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -230,6 +240,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201906101106103_mig01.resx">
       <DependentUpon>201906101106103_mig01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906101200497_mig01_01.resx">
+      <DependentUpon>201906101200497_mig01_01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906101211546_mig01_02.resx">
+      <DependentUpon>201906101211546_mig01_02.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
